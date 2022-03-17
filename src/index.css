@@ -14,3 +14,11 @@
     text-align: center;
     border: 1px solid black;
 }
+
+.left{
+    float: right;
+    position: sticky;
+    bottom: 2vh;
+    right: 20px;
+    
+}

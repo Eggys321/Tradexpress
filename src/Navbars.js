@@ -13,21 +13,17 @@ const Navbars = () => {
           </Link>
           <Navbar.Toggle aria-controls='basic-navbar-nav' />
           <Navbar.Collapse id='basic-navbar-nav'>
-            <Nav className='me-auto text-center'>
-              <Nav.Link className='text-white '>
+            <Nav className='me-auto dis text-center '>
+              <Nav.Link className='text-white  '>
                 <Link to='/instant' className='text-white text-decoration-none'>
-                  InstantBuy/Sell 
-                </Link>=
+                  InstantBuy/Sell
+                </Link>
               </Nav.Link>
               <Nav.Link className='text-white'>
-                <Link className='text-white text-decoration-none'>
-                  Learn
-                </Link>
+                <Link className='text-white text-decoration-none'>Learn</Link>
               </Nav.Link>
               <Nav.Link>
-                <Link className='btn btn-primary px-5'>
-                  Login
-                </Link>
+                <Link className='btn btn-primary px-5'>Login</Link>
               </Nav.Link>
               <Nav.Link>
                 <Link to='' className='btn btn-outline-light px-4'>
